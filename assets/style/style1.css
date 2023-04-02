@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 7px 1px rgb(165, 163, 163);
+    /* position: fixed; */
+    
+}
+.navbar .image {
+    margin-left: 30px;
+}
+
+.navbar .items  {
+    display: flex;
+    gap: 40px;
+    margin-left: 400px;
+    width: 800px;
+    position: absolute;
+    top: 15px;
+    float: left;   
+    list-style: none;
+    color: gray;
+}
+.navbar .items li a { 
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    font-size: 18px;
+}
+.navbar .items li .chose {
+    color: orange;
+}
+.submin { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 487px;
+    padding: 15px;
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: -0px;
+    list-style: none;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 2px;
+}
+
+.navbar .login_lan {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar .login span ,.navbar .login p ,.navbar .lan{
+ margin: 0 30px;
+ font-size: 20px;
+ color: gray;
+}
+.navbar .lan span {
+  color: coral;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    height: 900px;
+    background-image: url(../img/png/166448bb602550524d906cbdca70189c\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center; 
+    justify-content: center;
+}
+.Find {
+ position: absolute;
+ top: 100px;
+   margin: 20px;
+ 
+  /* margin-top: 85px;
+  margin-left: 50px; */
+}
+.Find  h4 {
+    font-family: system-ui;
+    margin: 20px 0px;
+}
+.Find button {
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-left: 30px;
+}
+.Find  h1 {
+   margin-left: 70px;
+}
+
+.search {
+    position: absolute;
+    top: 300px; 
+    border-bottom: 2px solid black;
+}
+.search input { 
+    width: 500px;
+    border: none;
+    height: 30px;
+    background-color: rgb(248 250 254 / 0%);
+}
+.search img { 
+    margin: 0 5px;
+}
+.links  {
+    position: absolute;
+    top: 350px; 
+    display: flex;
+    gap: 35px;
+   
+}
+.links  a {
+    text-decoration: none;
+    color: gray;
+}
+.cards{
+    
+    position: absolute;
+    top: 400px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    
+   
+}
+.img{
+    display: flex;
+    gap: 20px;
+    
+}
+.img p   {
+    margin-top: 10px;
+   margin-right: 20px;
+}
+.img h6 {
+margin-top: 15px;
+margin-right: 10px;
+color: gray;
+
+}
+.card  h4 {
+   font-family: monospace;
+   margin: 20px 0px;
+   font-size: 14px;
+   color: gray;
+}
+.card h2 {
+margin: 20px 0px;
+}
+.card  span {
+    color: black;
+}
+.Active{
+    display: flex;
+    justify-content: space-between
+}
+.ul { 
+    color: rgb(55, 211, 55);
+    margin-left: 15px;
+}
+.Active h5 { 
+    color: gray;
+}
+#button { 
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.card { 
+    padding: 30px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+footer { 
+    position: absolute;
+    top: 850px;
+    height: 250px;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    background: #282828;
+    
+}
+.ALL { 
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    padding: 50px;
+}
+.ALL h2 { 
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 25px;
+}
+.ALL h4 {
+    margin-bottom: 10px;
+    font-family: monospace;
+    
+}
+.end { 
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.end hr { 
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+.end p { 
+    margin-left: 40px;
+}
